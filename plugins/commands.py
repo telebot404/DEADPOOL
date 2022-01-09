@@ -47,7 +47,9 @@ async def start(client, message):
             InlineKeyboardButton('🤖 Updates', url='https://t.me/bingeplix')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('😊 About', callback_data='about') 
+            ],[ 
+            InlineKeyboardButton('😇𝐎𝐖𝐍𝐄𝐑', url='https://t.me/inform_adminzBOT')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
